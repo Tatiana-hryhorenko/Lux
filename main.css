@@ -118,3 +118,25 @@ body {
 .top__slider-images {}
 
 .top__slider-text {}
+
+.top {}
+
+.top__bottom {
+    display: flex;
+}
+
+.top__items {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top__item {}
+
+.top__item-img {}
+
+.top__item-text {}
+
+.top__links {}
+
+.top__link {}
