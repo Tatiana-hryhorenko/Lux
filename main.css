@@ -131,7 +131,17 @@ body {
     justify-content: space-around;
 }
 
-.top__item {}
+.top__item {
+    border: 1px solid #332208;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
 
 .top__item-img {}
 
