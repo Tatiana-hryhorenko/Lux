@@ -109,10 +109,14 @@ body {
     border: 1px solid #C5AC2D;
 }
 
+.slider__wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 50%;
+}
+
 #slider {
-    position: relative;
-    max-width: 600px;
-    max-height: 450px;
+    height: 0;
 }
 
 .top__bottom {
@@ -123,6 +127,7 @@ body {
     width: 50%;
     display: flex;
     justify-content: space-around;
+    bottom: 120px;
 }
 
 .top__item {
