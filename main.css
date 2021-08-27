@@ -111,16 +111,6 @@ body {
     border: 1px solid #C5AC2D;
 }
 
-.top__slider {}
-
-.top__slider-item {}
-
-.top__slider-images {}
-
-.top__slider-text {}
-
-.top {}
-
 .top__bottom {
     display: flex;
 }
