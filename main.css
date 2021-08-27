@@ -110,8 +110,9 @@ body {
 }
 
 .slider__wrapper {
-    display: flex;
-    flex-flow: row nowrap;
+    /*display: flex;
+    flex-flow: row nowrap;*/
+    position: relative;
     height: 50%;
 }
 
@@ -120,14 +121,16 @@ body {
 }
 
 .top__bottom {
-    display: flex;
+    /*display: flex;*/
+    position: absolute;
 }
 
-.top__items {
+
+/*.top__items {
     width: 50%;
     display: flex;
-    justify-content: space-around;
-    bottom: 120px;
+    justify-content: space-between;
+    top: 120px;
 }
 
 .top__item {
