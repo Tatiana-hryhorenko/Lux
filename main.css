@@ -67,8 +67,6 @@ body {
     line-height: 21px;
 }
 
-.top {}
-
 .top__heading {
     display: flex;
     padding-top: 50px 0 30px;
@@ -109,6 +107,11 @@ body {
     color: #C5AC2D;
     background: #fefefe;
     border: 1px solid #C5AC2D;
+}
+
+#slider {
+    max-width: 600px;
+    max-height: 450px;
 }
 
 .top__bottom {
