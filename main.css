@@ -65,6 +65,10 @@ body {
     line-height: 21px;
 }
 
+.top {
+    padding-bottom: 50px;
+}
+
 .top__heading {
     display: flex;
     padding: 50px 0 30px;
@@ -165,3 +169,20 @@ body {
 .top__link+.top__link {
     margin-left: 20px;
 }
+
+.rent {
+    padding: 50px 0;
+}
+
+.rent__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rent__content {
+    width: 300px;
+}
+
+.rent__title {}
+
+.rent__text {}
