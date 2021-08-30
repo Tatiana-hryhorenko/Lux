@@ -227,8 +227,8 @@ body {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 29px;
     text-align: center;
     margin: 0 auto;
 }
@@ -236,3 +236,52 @@ body {
 .rent__item-text {
     text-align: center;
 }
+
+.benefits {
+    padding: 50px 0;
+}
+
+.benefits__title {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px
+}
+
+.benefits__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits__list {
+    width: 300px;
+}
+
+.benefits__list-item {
+    margin-bottom: 27px;
+    padding-right: 26px;
+    position: relative;
+    text-align: right;
+}
+
+.benefits__list-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #332208;
+    right: 0;
+    ;
+}
+
+.benefits__content {
+    width: 300px;
+}
+
+.benefits__text {}
+
+.video-popup {}
