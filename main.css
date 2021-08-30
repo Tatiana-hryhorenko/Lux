@@ -13,7 +13,7 @@ li {
 }
 
 .header {
-    background: #332208;
+    background: #2d424a;
 }
 
 .header__inner {
@@ -99,16 +99,16 @@ body {
 .top__application-btn {
     text-transform: uppercase;
     color: #fefefe;
-    background: #C5AC2D;
+    background: #b4786b;
     padding: 15px 20px;
     transition: all .5s;
     border-top: 1px solid transparent;
 }
 
 .top__application-btn:hover {
-    color: #C5AC2D;
+    color: #b4786b;
     background: #fefefe;
-    border: 1px solid #C5AC2D;
+    border: 1px solid #b4786b;
 }
 
 .slider__wrapper {
@@ -162,8 +162,8 @@ body {
 }
 
 .top__link {
-    border-bottom: 1px solid #1B1818;
-    color: #1B1818;
+    border-bottom: 1px solid #b4786b;
+    color: #b4786b;
 }
 
 .top__link+.top__link {
@@ -216,11 +216,12 @@ body {
 .rent__item-num {
     font-family: Fira Sans;
     font-style: normal;
+    color: #612a11;
     font-weight: 500;
     font-size: 96px;
     line-height: 115px;
     text-align: center;
-    opacity: 0.05;
+    opacity: 0.16;
 }
 
 .rent__item-title {
@@ -273,7 +274,7 @@ body {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: #332208;
+    background: #2d424a;
     right: 0;
     ;
 }
@@ -282,6 +283,33 @@ body {
     width: 300px;
 }
 
-.benefits__text {}
+.benefits__list-item:nth-child(1),
+.benefits__list-item:nth-child(7) {
+    margin-right: 10px;
+}
+
+.benefits__list-item:nth-child(2),
+.benefits__list-item:nth-child(6) {
+    margin-right: 60px;
+}
+
+.benefits__list-item:nth-child(3),
+.benefits__list-item:nth-child(5) {
+    margin-right: 110px;
+}
+
+.benefits__list-item:nth-child(4) {
+    margin-right: 160px;
+}
+
+.benefits__text {
+    margin-bottom: 30px;
+}
+
+.benefits__text+.benefits__text {
+    width: 268px;
+    text-align: right;
+    margin-left: auto;
+}
 
 .video-popup {}
