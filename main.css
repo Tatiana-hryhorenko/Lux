@@ -276,11 +276,12 @@ body {
     border-radius: 50%;
     background: #2d424a;
     right: 0;
-    ;
+    top: 3px;
 }
 
 .benefits__content {
     width: 300px;
+    text-align: right;
 }
 
 .benefits__list-item:nth-child(1),
