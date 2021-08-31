@@ -112,7 +112,7 @@ body {
 }
 
 .slider__wrapper {
-    position: relative;
+    display: flex;
     width: 600px;
     height: 450px;
 }
