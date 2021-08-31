@@ -112,13 +112,15 @@ body {
 }
 
 .slider__wrapper {
-    position: relative;
-    width: 600px;
-    height: 450px;
+    padding-right: 200px;
+    /*width: 600px;
+    height: 450px;*/
 }
 
 #slider {
-    height: 0;
+    /*height: 0;*/
+    width: 600px;
+    height: 450px;
 }
 
 .top__bottom {
