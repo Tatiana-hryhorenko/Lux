@@ -112,17 +112,17 @@ body {
 }
 
 .slider__wrapper {
-    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+#slider {
     width: 600px;
     height: 450px;
     margin-top: 100px;
 }
 
-#slider {
-    height: 0;
-}
-
-.top__bottom {
+*/ .top__bottom {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
